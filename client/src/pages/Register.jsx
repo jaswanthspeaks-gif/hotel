@@ -75,7 +75,7 @@ export default function Register() {
           </label>
           {error && <p className="mt-4 text-sm text-red-700">{error}</p>}
           <Button type="submit" className="mt-6 w-full" disabled={loading}>
-            {loading ? 'CREATING…' : 'CREATE ACCOUNT'}
+            {loading ? 'CREATING...' : 'CREATE ACCOUNT'}
           </Button>
           <p className="mt-4 text-center text-sm text-ink/70">
             Already registered?{' '}

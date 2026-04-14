@@ -53,7 +53,7 @@ export default function RoomDetail() {
               onClick={() => navigate(-1)}
               className="text-xs font-semibold uppercase tracking-wide text-forest hover:underline"
             >
-              ← Back
+              Back
             </button>
             <div className="mt-6 grid gap-10 lg:grid-cols-2">
               <div className="overflow-hidden rounded-sm shadow-lg ring-1 ring-black/5">

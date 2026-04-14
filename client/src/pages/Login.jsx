@@ -68,7 +68,7 @@ export default function Login() {
           </label>
           {error && <p className="mt-4 text-sm text-red-700">{error}</p>}
           <Button type="submit" className="mt-6 w-full" disabled={loading}>
-            {loading ? 'SIGNING IN…' : 'SIGN IN'}
+            {loading ? 'SIGNING IN...' : 'SIGN IN'}
           </Button>
           <p className="mt-4 text-center text-sm text-ink/70">
             New guest?{' '}
@@ -77,8 +77,7 @@ export default function Login() {
             </Link>
           </p>
           <p className="mt-6 rounded-sm bg-mist p-3 text-xs text-ink/60">
-            Demo: <span className="font-semibold">guest@resort.lk</span> / Guest123! — Admin:{' '}
-            <span className="font-semibold">admin@resort.lk</span> / Admin123!
+            Sign in with an existing account from your MongoDB data, or create a new account to log in.
           </p>
         </form>
       </main>
